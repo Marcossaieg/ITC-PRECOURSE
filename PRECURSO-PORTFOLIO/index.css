@@ -1,178 +1,184 @@
 * {
-    box-sizing: border-box;
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+display: flex;
+background-color: white;
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+.containerNavbar{
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+font-size: 1rem;
+width: 100vw;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+position: absolute;
+position: fixed;    
+top: 0;
+background-color: #9b9999;
+opacity: 0.2;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.068);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+}
+.espacioNavbar{
+width: 75vw;
+background-color: transparent;
+}
+.linksNavbar{
+width: 3.5vw;
+height: 1vw;
+color: black;
+justify-content: center;
+align-items: center;
+}
+
+.containerHomenavbar{
+width: 7vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: black;
+}
+.containerAboutnavbar{
+width: 7vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: black;
+}
+.containerContactnavbar{
+width: 7vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: black;
+}
+
+
+.containerBoxinicio{    
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 98vw;
+height: 100vh;
+}
+.containerIzquierdo{
+width: 46vw;
+height: 80vh;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerRectangulo{
+display: flex;
+padding: 0;
+margin-bottom:50vh;
+justify-content: center;
+align-items:center;
+background-color: yellow;
+opacity: 0.5;
+height: 50vh;
+width: 30vw;
+
+}
+.containerPerfil{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 38vw;
+height: 40vh;     
+margin-right: 15vw;
+}
+.fotoPerfil{
+align-content: center;
+width: 25vw;
+height: 65vh;
+margin-bottom: 2.5vh;
+position: absolute;
   
-  body {
-    background-color: white;
-    font-family: sans-serif;
-    width: 98vw;
-    margin: 0;
-    padding: 0;
-  }
-  a{
-    text-decoration: none;
-    text-align: center;  
-    
-  }
-
-  .containerNavbar{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    position: absolute;
-    position: fixed;    
-    top: 0;
-    background-color: #A6A6A6;
-    color: black;
-    opacity: 0.2;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.068);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-  }
-  .espacioNavbar{
-    width: 75vw;
-    background-color: transparent;
-  }
-  .linksNavbar{
-    width: 3.5vw;
-    height: 1vw;
-    color: black;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .containerHomenavbar{
-    width: 7vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-  }
-  .containerAboutnavbar{
-    width: 7vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-  }
-  .containerContactnavbar{
-    width: 7vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-  }
-
-
-
-
- .containerBoxinicio{    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 95vw;
-    height: 100vh;
- }
- .containerIzquierdo{
-   width: 45vw;
-   height: 80vh;
-   margin-top: 8vh;
-   padding: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
- }
- .containerRectangulo{
+}
+.containerTitulomarcos{
   display: flex;
-  padding: 0;
-  margin-bottom:45vh;
   justify-content: center;
-  align-items:center;
-  background-color: yellow;
-  opacity: 0.5;
-  height: 50vh;
-  width: 30vw;
-  
+  align-items: center;
+  height: 17.5vh;
+  width: 25vw;
+  position: absolute;
+  margin-left: 40vw;
+  margin-top: 35vh;
+  background-color:rgb(236, 236, 19) ;
 }
- .containerPerfil{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 38vw;
-    height: 48vh;     
-    margin-right: 8vw;
- }
- .fotoPerfil{
-    align-content: center;
-    width: 30vw;
-    height: 75vh;
-    position: absolute;
-    
+.containerRectangulo2{
+  display: flex;
+  width: 9vw;
+  height: 15vh;
+  background-color: rgba(128, 128, 128, 0.466);
+  margin-top: 55vh;
+  margin-left: 70vw;
+  position: absolute;
+  }
+.tituloMarcos{
+  font-size: 4.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  margin-right:3vw;
+  margin-bottom: 12.5vh;
+  position: absolute;
+  line-height: 0.9;
 }
-      
-     
- 
- .containerDerecho{
+
+.containerDerecho{
+  width: 46vw;
+  height: 80vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 45vw;
-  height: 80vh;
- }
- .containerOneway{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 20vw;
-   height: 20vh;
-   margin-bottom: 50vh;
-   margin-left: 35vw;
-   position: absolute;
- }
- .subtOneway{
-   font-size: 3rem;
-   font-weight: 700;
- }
- .containerTitulomarcos{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  
- }
- .tituloMarcos{
-  font-size: 7rem;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin-right: 20vw;
-   
-   
- }
+  justify-content: flex-start;
+  align-items: flex-end;
+}
 
-
-
-
-
-
-
-
-
- #fondoNombreMarcos{ 
+.containerOneway{
   display: flex;
-  justify-content: center;
-  align-items: center;  
-  width: 50vw;  
-  background-color: rgb(236, 236, 19);
-  border-radius: 1rem;  
- }
- #marcosSaieg{
+  height: 17vh;
+  
+}
+.oneWay{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 700, bold;
- }
+  font-size: 4rem;
+}
+
+.containerItcsubtitulo{
+  display: flex;
+  text-justify: initial;  
+  
+}
+.itcSubtitulo{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5rem;
+}
+
+.containerLorem{
+  display: flex;
+  height: 50vh;
+  width: 16vw;
+}
+
+    
+    
+
+
+
+
+
