@@ -7,7 +7,6 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
-box-sizing: border-box;
 background-color: white;
 font-family: sans-serif;
 margin: 0;
@@ -73,7 +72,7 @@ color: black;
   background-color: whitesmoke;
   display: flex;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100rem;
   border: 2px solid red;
@@ -83,7 +82,7 @@ color: black;
   margin: 0;
   padding: 0;
   width: 100rem;
-  height: 80vh;
+  height: 100vh;
   border: 1px dotted blue;
   display: flex;
   box-sizing: border-box;
@@ -96,7 +95,7 @@ color: black;
 .containerInfoleft{
   margin: auto;
   padding: auto;
-  width: 45rem;
+  width: 48rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -122,25 +121,33 @@ color: black;
   align-items: center;
   display: flex;
   border: 1px solid blue;
+  position: absolute;
  }
-.tituloMarcossaieg,h1{
+ .infoLeftrectangulo{
+  width: 25rem;
+  height: 7rem;
+  background-color: yellow;
+  opacity: 0.75;
+  position: absolute;
+  
+}
+.tituloMarcossaieg{
+  width: 30rem;
+  top:55%;
+  left:15%;
+  text-align: right;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 5rem;
   font-weight: bold;
+  position: fixed;
 }
-.infoLeftrectangulo{
-  width: 25rem;
-  height: 7rem;
-  background-color: yellow;
-}
-
 
 .containerInfoRight{
   margin: auto;
   padding: auto;
-  width: 45rem;
+  width: 48rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -179,15 +186,19 @@ h2.socialNet{
   display: flex;
   box-sizing: border-box;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   width: 45rem;
   border: 2.5px red solid;
 }
-a{
+.btnSocialnet{
+  justify-content: space-around;
+  align-items: center;
+  width: 45rem;
   text-decoration: none;
 
 }
+
 
 
 
